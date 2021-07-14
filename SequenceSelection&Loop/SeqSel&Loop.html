@@ -23,6 +23,16 @@
 
         var reallyLocation = myString.search('really');
         console.log(reallyLocation);
+
+
+
+        var specialWord = myString.substr(reallyLocation, 6);
+        console.log(specialWord);
+
+
+        specialWord = specialWord.toUpperCase();
+        var newString = myString.replace('really', specialWord);
+        console.log(newString);
     </script>
 
 </body>
