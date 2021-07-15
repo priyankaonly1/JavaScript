@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>DOM Examples</h2>
+    <div id="special">
+        <p>here is a paragraph</p>
+        <p>here is another paragraph</p>
+        <p>here is one more paragraph</p>
+    </div>
+
+    <script>
+        var myDiv = document.querySelector('#special');
+        myDiv.innerHTML = '<p>Here is a new paragraph</p>';
+    </script>
+</body>
+
+</html>
