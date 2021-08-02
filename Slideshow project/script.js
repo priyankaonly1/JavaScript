@@ -6,7 +6,9 @@
 
     var currentImage = 0;
 
-    document.getElementById('next').onclick = nextPhoto;
+    // document.getElementById('next').onclick = nextPhoto;
+
+    document.getElementById('next').addEventListener('click', nextPhoto);
 
     function nextPhoto() {
         currentImage++;
